@@ -1,0 +1,22 @@
+-- Tracks longer than 5 minutes
+SELECT *
+FROM Track
+WHERE Milliseconds > 300000;
+
+
+-- Customer from India
+SELECT * 
+FROM Customer
+WHERE Country = 'India';
+
+
+--Invoice from India
+SELECT *
+FROM Invoice
+WHERE BillingCountry = 'India';
+
+--Invoice from India
+
+SELECT *
+FROM Invoice
+WHERE BillingCountry = 'India';
