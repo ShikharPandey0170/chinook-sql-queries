@@ -15,8 +15,9 @@ SELECT *
 FROM Invoice
 WHERE BillingCountry = 'India';
 
---Invoice from India
 
+--Invoice from India in the year 2022
 SELECT *
 FROM Invoice
-WHERE BillingCountry = 'India';
+WHERE BillingCountry = 'India'
+    AND Year(InvoiceDate) = 2022;
