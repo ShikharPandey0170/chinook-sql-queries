@@ -20,4 +20,5 @@ WHERE BillingCountry = 'India';
 SELECT *
 FROM Invoice
 WHERE BillingCountry = 'India'
-    AND Year(InvoiceDate) = 2022;
+    AND InvoiceDate >= '2022-01-01'
+    AND InvoiceDate < '2023-01-01';
